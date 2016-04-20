@@ -6,19 +6,19 @@
   <title>把自己的域名解析到gh-pages吧 - Programer - samkee&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="前言在 第一篇教程 中已经把博客部署到GitHub上面去了，我设置的仓库名字是pengsamkee.github.io，所以gh-pages会把我的博客发布到pengsamkee.github.io这个域名上面去，访问pengsamkee.github.io可以预览到博客内容。
-如何解析自己的域名如果自己购买了域名，可以把自己的域名解析到pengsamkee.github.io，当在浏览器输入域名">
+如何解析自己的域名如果自己购买了域名，可以把自己的域名解析到pengsamkee.github.io，当在浏览器输入ww">
 <meta property="og:type" content="article">
 <meta property="og:title" content="把自己的域名解析到gh-pages吧">
 <meta property="og:url" content="http://www.samkee.me/2016/04/20/Interprets-Domain-To-Hexo/index.html">
 <meta property="og:site_name" content="Programer - samkee's blog">
 <meta property="og:description" content="前言在 第一篇教程 中已经把博客部署到GitHub上面去了，我设置的仓库名字是pengsamkee.github.io，所以gh-pages会把我的博客发布到pengsamkee.github.io这个域名上面去，访问pengsamkee.github.io可以预览到博客内容。
-如何解析自己的域名如果自己购买了域名，可以把自己的域名解析到pengsamkee.github.io，当在浏览器输入域名">
+如何解析自己的域名如果自己购买了域名，可以把自己的域名解析到pengsamkee.github.io，当在浏览器输入ww">
 <meta property="og:image" content="http://www.samkee.me/images/hexoDomain.png">
-<meta property="og:updated_time" content="2016-04-20T03:40:12.600Z">
+<meta property="og:updated_time" content="2016-04-20T03:45:43.423Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="把自己的域名解析到gh-pages吧">
 <meta name="twitter:description" content="前言在 第一篇教程 中已经把博客部署到GitHub上面去了，我设置的仓库名字是pengsamkee.github.io，所以gh-pages会把我的博客发布到pengsamkee.github.io这个域名上面去，访问pengsamkee.github.io可以预览到博客内容。
-如何解析自己的域名如果自己购买了域名，可以把自己的域名解析到pengsamkee.github.io，当在浏览器输入域名">
+如何解析自己的域名如果自己购买了域名，可以把自己的域名解析到pengsamkee.github.io，当在浏览器输入ww">
 <meta name="twitter:image" content="http://www.samkee.me/images/hexoDomain.png">
   
   
@@ -87,11 +87,11 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在 <a href="http://www.samkee.me/2016/04/19/Use-NodeJs-Hexo-GitHub-To-Build-Blog-Windows/">第一篇教程</a> 中已经把博客部署到GitHub上面去了，我设置的仓库名字是pengsamkee.github.io，所以gh-pages会把我的博客发布到pengsamkee.github.io这个域名上面去，访问pengsamkee.github.io可以预览到博客内容。</p>
-<h2 id="如何解析自己的域名"><a href="#如何解析自己的域名" class="headerlink" title="如何解析自己的域名"></a>如何解析自己的域名</h2><p>如果自己购买了域名，可以把自己的域名解析到pengsamkee.github.io，当在浏览器输入域名商会帮我们实现url跳转。<br>如下图所示，添加一条CNAME类型的高级解析：主机名为www，解析类型为CNAME记录，对应值为pengsamkee.github.io，TTL为200<br><img src="/images/hexoDomain.png" alt=""></p>
-<h3 id="前方高能"><a href="#前方高能" class="headerlink" title="前方高能"></a>前方高能</h3><p>虽然你把域名解析到pengsamkee.github.io了，但是输入www.samkee.me之后，还是无法发生跳转。这是因为博客根目录必须也要提供一个CNAME文件这样才能互相对应起来，域名商一定要在网站根目录找到这个CNAME文件才给你跳转过去的。<br>还记得 <a href="http://www.samkee.me/2016/04/19/Use-NodeJs-Hexo-GitHub-To-Build-Blog-Windows/">第一篇教程</a> 中，提到某一个文件夹的说明吗？</p>
-<h4 id="source"><a href="#source" class="headerlink" title="source"></a>source</h4><p>资源文件夹是存放用户资源的地方。除 <em>posts 文件夹之外，开头命名为 </em> (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。<br>把CNAME文件放到这里是最合适了，每次发布hexo都会从这里拷贝到public，然后发布到gh-pages。</p>
+<h2 id="如何解析自己的域名"><a href="#如何解析自己的域名" class="headerlink" title="如何解析自己的域名"></a>如何解析自己的域名</h2><p>如果自己购买了域名，可以把自己的域名解析到pengsamkee.github.io，当在浏览器输入www.samkee.me，域名商会帮我们实现url跳转。<br>如下图所示，添加一条CNAME类型的高级解析：主机名为www，解析类型为CNAME记录，对应值为pengsamkee.github.io，TTL为200<br><img src="/images/hexoDomain.png" alt=""></p>
+<h3 id="前方高能"><a href="#前方高能" class="headerlink" title="前方高能"></a>前方高能</h3><p>虽然你把域名解析到pengsamkee.github.io了，但是输入www.samkee.me之后，还是无法发生跳转。这是因为博客根目录必须也要提供一个CNAME文件这样才能互相对应起来，也就是说域名商一定要在网站根目录找到这个CNAME文件才给你跳转过去的。</p>
+<h4 id="还记得-第一篇教程-中，提到某一个文件夹的说明吗？"><a href="#还记得-第一篇教程-中，提到某一个文件夹的说明吗？" class="headerlink" title="还记得 第一篇教程 中，提到某一个文件夹的说明吗？"></a>还记得 <a href="http://www.samkee.me/2016/04/19/Use-NodeJs-Hexo-GitHub-To-Build-Blog-Windows/">第一篇教程</a> 中，提到某一个文件夹的说明吗？</h4><h4 id="source"><a href="#source" class="headerlink" title="source"></a>source</h4><p>资源文件夹是存放用户资源的地方。除 <em>posts 文件夹之外，开头命名为 </em> (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。<br>把CNAME文件放到这里是最合适了，每次发布hexo都会从这里拷贝到public，然后发布到gh-pages。</p>
 <h5 id="CNAME内容如下"><a href="#CNAME内容如下" class="headerlink" title="CNAME内容如下"></a>CNAME内容如下</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">www.samkee.me</span><br></pre></td></tr></table></figure>
-<p>这样就大功告成了。</p>
+<p>这样就大功告成了：www.samkee.me能解析到pengsamkee.github.io同时pengsamkee.github.io也能跳转到www.samkee.me。</p>
 <h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>当以上步骤都操作完成之后，发现还是无法对你的域名进行解析的话，可能是因为域名商还没真正把你域名解析了，需要等待较短的时候方可生效，不过一般都会很快。</p>
 
       
