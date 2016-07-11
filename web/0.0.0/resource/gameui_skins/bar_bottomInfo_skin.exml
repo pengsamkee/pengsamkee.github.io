@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.bar_bottomInfo_skin" height="46" width="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image left="0" right="0" bottom="0" top="0" source="bottom_infobar_bg_png" locked="true" />
+    <e:Label id="nameLabel" size="28" text="来宾470941836" textColor="0xFFFFFF" textAlign="left" verticalAlign="middle"
+             fontFamily="Tahoma" left="20" top="8" />
+    <e:Image height="40" width="40" source="lord_gold_png" left="260" top="6" locked="true" />
+    <e:Label id="goldLabel" size="28" text="32545645" textColor="0xFFFFFF" textAlign="left" verticalAlign="middle"
+             fontFamily="Tahoma" left="302" top="8" />
+</e:Skin>

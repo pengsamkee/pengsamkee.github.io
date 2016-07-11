@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.widget_lobby_match_item_skin" width="508" height="147" xmlns:e="http://ns.egret.com/eui">
+    <e:Button skinName="skins.btn_lobby_match_item_normal_bg_skin" />
+    <e:Label text="赢1元话费(免费报名)" top="36" left="16" textColor="0x000000" touchEnabled="false"  size="36"/>
+    <e:Label text="18168人" top="43" right="16" touchEnabled="false" size="26"  textColor="0x222222"/>
+    <e:Label text="每2秒开赛1场" top="88" left="16" touchEnabled="false" size="26"  textColor="0x001111"/>
+    <e:Label text="满510人开赛" top="88" right="16" touchEnabled="false" size="26"  textColor="0x001111"/>
+</e:Skin>

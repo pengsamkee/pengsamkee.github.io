@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.widget_lobby_game_entry_skin" width="160" height="160" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="{data.icon}" />
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.panel_otherPlayerInfo_skin" height="242" width="474" xmlns:e="http://ns.egret.com/eui">
+    <e:Image left="0" right="0" bottom="0" top="0" source="lord_playerinfo_bg_png" />
+    <e:Group width="100%" left="20" height="118">
+        <e:layout>
+            <e:VerticalLayout gap="20" verticalAlign="middle" />
+        </e:layout>
+        <e:Label id="nameLabel" size="28" text="pengsamkee" textColor="0x7F5029" textAlign="left" verticalAlign="middle"
+                 fontFamily="Tahoma" />
+        <e:Label id="levelLabel" size="22" text="等级：LV999" textColor="0x7F5029" textAlign="left" verticalAlign="middle"
+                 fontFamily="Tahoma" />
+    </e:Group>
+    <e:List id="emotionList" width="100%" top="126">
+        <e:layout>
+            <e:HorizontalLayout gap="0" />
+        </e:layout>
+    </e:List>
+</e:Skin>

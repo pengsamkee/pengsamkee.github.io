@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.screen_lobby_skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:gameui="gameui.*">
+    <e:Image id="backgroundImage" source="lobby_bg_jpg" />
+    <e:Image id="titleImage" source="lobby_title_png" horizontalCenter="0" top="30" />
+    <gameui:LobbyGameEntryIndicator id="gameEntryIndicator" />
+</e:Skin>
