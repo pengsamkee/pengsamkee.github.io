@@ -1,0 +1,188 @@
+{
+  "exmls": [
+    {
+      "path": "resource/gameui_skins/bar_bottomInfo_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.bar_bottomInfo_skin\" height=\"46\" width=\"1280\" xmlns:e=\"http://ns.egret.com/eui\"\n        xmlns:w=\"http://ns.egret.com/wing\">\n    <e:Image left=\"0\" right=\"0\" bottom=\"0\" top=\"0\" source=\"bottom_infobar_bg_png\" locked=\"true\" />\n    <e:Label id=\"nameLabel\" size=\"28\" text=\"来宾470941836\" textColor=\"0xFFFFFF\" textAlign=\"left\" verticalAlign=\"middle\"\n             fontFamily=\"Tahoma\" left=\"20\" top=\"8\" />\n    <e:Image height=\"40\" width=\"40\" source=\"lord_gold_png\" left=\"260\" top=\"6\" locked=\"true\" />\n    <e:Label id=\"goldLabel\" size=\"28\" text=\"32545645\" textColor=\"0xFFFFFF\" textAlign=\"left\" verticalAlign=\"middle\"\n             fontFamily=\"Tahoma\" left=\"302\" top=\"8\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lord_call_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_lord_call_skin\" states=\"up,down\" minHeight=\"86\" minWidth=\"235\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_lord_call_up_png\" source.down=\"btn_lord_call_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lord_no_call_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_lord_no_call_skin\" states=\"up,down\" minHeight=\"86\" minWidth=\"235\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_lord_no_call_up_png\" source.down=\"btn_lord_no_call_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lord_rob_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\r\n<e:Skin class=\"skins.btn_lord_rob_skin\" states=\"up,down\" minHeight=\"86\" minWidth=\"235\" xmlns:e=\"http://ns.egret.com/eui\">\r\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_lord_rob_up_png\" source.down=\"btn_lord_rob_down_png\" />\r\n</e:Skin>\r\n"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lord_no_rob_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_lord_no_rob_skin\" states=\"up,down\" minHeight=\"86\" minWidth=\"235\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_lord_no_rob_up_png\" source.down=\"btn_lord_no_rob_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/bar_callLord.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.bar_callLord\" width=\"488\" height=\"176\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Group width=\"100%\" height=\"80\">\n        <e:Image id=\"clockImage\" width=\"94\" height=\"80\" source=\"lord_clock_bg_png\" horizontalCenter=\"0\" />\n        <e:Label id=\"clockLabel\" size=\"32\" bold=\"true\" textColor=\"0xFFFFFF\" textAlign=\"center\" verticalAlign=\"middle\"\n                 fontFamily=\"Tahoma\" horizontalCenter=\"0\" top=\"20\" />\n    </e:Group>\n    <e:Group id=\"callBtnGrop\" width=\"100%\" height=\"100%\">\n        <e:layout>\n            <e:HorizontalLayout gap=\"16\" verticalAlign=\"bottom\" />\n        </e:layout>\n        <e:Button id=\"callBtn\" skinName=\"skins.btn_lord_call_skin\" />\n        <e:Button id=\"noCallBtn\" skinName=\"skins.btn_lord_no_call_skin\" />\n    </e:Group>\n    <e:Group id=\"robBtnGrop\" width=\"100%\" height=\"100%\">\n        <e:layout>\n            <e:HorizontalLayout gap=\"14\" verticalAlign=\"bottom\" />\n        </e:layout>\n        <e:Button id=\"robBtn\" skinName=\"skins.btn_lord_rob_skin\" />\n        <e:Button id=\"noRobBtn\" skinName=\"skins.btn_lord_no_rob_skin\" />\n    </e:Group>\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lord_pass_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_lord_pass_skin\" states=\"up,down,disabled\" minHeight=\"88\" minWidth=\"237\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_lord_pass_normal_png\" source.down=\"btn_lord_pass_down_png\"\n             source.disabled=\"btn_lord_pass_disabled_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lord_prompt_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_lord_prompt_skin\" states=\"up,down,disabled\" minHeight=\"88\" minWidth=\"237\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_lord_prompt_normal_png\" source.down=\"btn_lord_prompt_down_png\"\n             source.disabled=\"btn_lord_prompt_disabled_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lord_product_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_lord_product_skin\" states=\"up,down,disabled\" minHeight=\"88\" minWidth=\"237\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_lord_product_normal_png\" source.down=\"btn_lord_product_down_png\"\n             source.disabled=\"btn_lord_product_disabled_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/bar_playCard.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.bar_playCard\" width=\"739\" height=\"178\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Group width=\"100%\" height=\"80\">\n        <e:Image id=\"clockImage\" width=\"94\" height=\"80\" source=\"lord_clock_bg_png\" horizontalCenter=\"0\" />\n        <e:Label id=\"clockLabel\" size=\"32\" bold=\"true\" textColor=\"0xFFFFFF\" textAlign=\"center\" verticalAlign=\"middle\"\n                 fontFamily=\"Tahoma\" horizontalCenter=\"0\" top=\"20\" />\n    </e:Group>\n    <e:Group width=\"100%\" height=\"100%\">\n        <e:layout>\n            <e:HorizontalLayout gap=\"16\" verticalAlign=\"bottom\" />\n        </e:layout>\n        <e:Button id=\"passBtn\" skinName=\"skins.btn_lord_pass_skin\" />\n        <e:Button id=\"promptBtn\" skinName=\"skins.btn_lord_prompt_skin\" />\n        <e:Button id=\"productBtn\" skinName=\"skins.btn_lord_product_skin\" />\n    </e:Group>\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_classic_lord_enter_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_classic_lord_enter_skin\" states=\"up,down\" minHeight=\"412\" minWidth=\"256\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_classic_lord_enter_normal_png\" source.down=\"btn_classic_lord_enter_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_flash_lord_enter_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_flash_lord_enter_skin\" states=\"up,down\" minHeight=\"412\" minWidth=\"256\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_flash_lord_enter_normal_png\" source.down=\"btn_flash_lord_enter_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_happy_lord_enter_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_happy_lord_enter_skin\" states=\"up,down\" minHeight=\"412\" minWidth=\"256\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_happy_lord_enter_normal_png\" source.down=\"btn_happy_lord_enter_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lobby_match_item_normal_bg_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_lobby_match_item_normal_bg_skin\" states=\"up,down\" minHeight=\"147\" minWidth=\"508\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"lobby_match_item_normal_bg_up_png\" source.down=\"lobby_match_item_normal_bg_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lord_zone_1_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.btn_lord_zone_1_skin\" states=\"up,down\" minHeight=\"324\" minWidth=\"316\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_lord_zone_1_up_png\" source.down=\"btn_lord_zone_1_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lord_zone_2_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.btn_lord_zone_2_skin\" states=\"up,down\" minHeight=\"324\" minWidth=\"316\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_lord_zone_2_up_png\" source.down=\"btn_lord_zone_2_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lord_zone_3_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.btn_lord_zone_3_skin\" states=\"up,down\" minHeight=\"324\" minWidth=\"316\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_lord_zone_3_up_png\" source.down=\"btn_lord_zone_3_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_lord_zone_4_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.btn_lord_zone_4_skin\" states=\"up,down\" minHeight=\"324\" minWidth=\"316\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_lord_zone_4_up_png\" source.down=\"btn_lord_zone_4_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_match_item_detail_signup_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.btn_match_item_detail_signup_skin\" states=\"up,down,disabled\" width=\"350\" height=\"116\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"match_item_detail_signup_btn_up_png\"\n             source.down=\"match_item_detail_signup_btn_down_png\"\n             source.disabled=\"match_item_detail_signup_btn_disable_png\" />\n    <e:Label id=\"labelDisplay\" top=\"8\" bottom=\"8\" left=\"8\" right=\"8\" textColor=\"0xFFFFFF\" verticalAlign=\"middle\"\n             textAlign=\"center\" size=\"50\" fontFamily=\"Tohama\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_panel_close_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\r\n<e:Skin class=\"skins.btn_panel_close_skin\" states=\"up,down\" minHeight=\"117\" minWidth=\"117\"\r\n        xmlns:e=\"http://ns.egret.com/eui\">\r\n    <e:Image width=\"100%\" height=\"100%\" source=\"close_btn_up_png\" source.down=\"close_btn_down_png\" />\r\n    <e:Image id=\"iconDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\" />\r\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_pk_lord_enter_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_pk_lord_enter_skin\" states=\"up,down\" minHeight=\"412\" minWidth=\"256\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_pk_lord_enter_normal_png\" source.down=\"btn_pk_lord_enter_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_return_hall_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_return_hall_skin\" states=\"up,down\" minHeight=\"77\" minWidth=\"128\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_return_hall_up_png\" source.down=\"btn_return_hall_up_png\"\n             alpha.down=\"0.5\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_return_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_return_skin\" states=\"up,down\" minHeight=\"77\" minWidth=\"128\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_return_up_png\" source.down=\"btn_return_up_png\" alpha.down=\"0.5\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/btn_wild_lord_enter_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<e:Skin class=\"skins.btn_wild_lord_enter_skin\" states=\"up,down\" minHeight=\"412\" minWidth=\"256\"\n        xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image width=\"100%\" height=\"100%\" source=\"btn_wild_lord_enter_normal_png\" source.down=\"btn_wild_lord_enter_down_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/dialog_common_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"skins.dialog_common_skin\" xmlns:e=\"http://ns.egret.com/eui\" width=\"500\" height=\"300\">\r\n    <e:Image width=\"100%\" height=\"100%\" left=\"0\" right=\"0\" bottom=\"0\" top=\"0\" source=\"common_dialog_bg_png\" scale9Grid=\"2,2,12,12\" />\r\n    <e:Group id=\"moveArea\" left=\"0\" right=\"0\" top=\"0\" height=\"59\">\r\n        <e:Image left=\"0\" right=\"0\" bottom=\"0\" top=\"0\" source=\"common_dialog_title_bg_png\" maxHeight=\"59\" />\r\n        <e:Label id=\"titleDisplay\" size=\"26\" fontFamily=\"Tahoma\" textColor=\"0x7F5029\" wordWrap=\"false\"\r\n                 horizontalCenter=\"0\" verticalCenter=\"0\" />\r\n    </e:Group>\r\n    <e:Button id=\"closeButton\" skinName=\"skins.btn_panel_close_skin\" right=\"0\" top=\"0\" width=\"64\" height=\"64\" />\r\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/indicatorPage_lobby_game_entry_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.indicatorPage_lobby_game_entry_skin\" width=\"1080\" height=\"390\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:List id=\"gameEntryList\" width=\"100%\" height=\"100%\" itemRendererSkinName=\"skins.widget_lobby_game_entry_skin\">\n        <e:layout>\n            <e:TileLayout verticalGap=\"70\" horizontalGap=\"70\" />\n        </e:layout>\n        <e:ArrayCollection source=\"{data}\" />\n    </e:List>\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/indicatorPage_lord_match_item_select_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.indicatorPage_lord_match_item_select_skin\" width=\"1034\" height=\"478\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:List id=\"matchItemList\" width=\"100%\" height=\"100%\" itemRendererSkinName=\"skins.widget_lobby_match_item_skin\">\n        <e:layout>\n            <e:TileLayout verticalGap=\"18\" horizontalGap=\"18\" />\n        </e:layout>\n        <e:ArrayCollection source=\"{data}\" />\n    </e:List>\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/indicator_lobby_game_entry_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.indicator_lobby_game_entry_skin\" width=\"1280\" height=\"720\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:List id=\"indicatorPageList\" verticalCenter=\"0\" touchEnabled=\"false\" touchChildren=\"true\" itemRenderer=\"gameui.LobbyGameEntryIndicatorPage\">\n        <e:layout>\n            <e:HorizontalLayout gap=\"200\" />\n        </e:layout>\n    </e:List>\n    <e:Group horizontalCenter=\"0\" bottom=\"50\">\n        <e:List id=\"indicatorSelectBar\">\n            <e:layout>\n                <e:HorizontalLayout gap=\"-8\" />\n            </e:layout>\n        </e:List>\n        <e:Image id=\"indicatorSelectImage\" source=\"page_indicator_selected_png\" x=\"0\"/>\n    </e:Group>\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/indicator_lord_match_item_select_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.indicator_lord_match_item_select_skin\" width=\"1280\" height=\"720\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:List id=\"indicatorPageList\" verticalCenter=\"0\" touchEnabled=\"false\" touchChildren=\"true\" itemRenderer=\"gameui.LordMatchItemSelectIndicatorPage\">\n        <e:layout>\n            <e:HorizontalLayout gap=\"252\" />\n        </e:layout>\n    </e:List>\n    <e:Group horizontalCenter=\"0\" bottom=\"50\">\n        <e:List id=\"indicatorSelectBar\">\n            <e:layout>\n                <e:HorizontalLayout gap=\"-8\" />\n            </e:layout>\n        </e:List>\n        <e:Image id=\"indicatorSelectImage\" source=\"page_indicator_selected_png\" x=\"0\"/>\n    </e:Group>\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/panel_join_match_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.panel_join_match_skin\" width=\"900\" height=\"600\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n    <e:Image width=\"100%\" height=\"100%\" x=\"0\" y=\"0\"  source=\"common_dialog_bg_png\" locked=\"true\"/>\n    <e:Image x=\"484\" y=\"250\" source=\"match_item_condition_bg_png\" />\n    <e:Label text=\"话费参赛券\" x=\"484\" y=\"250\" fontFamily=\"Tohama\" width=\"350\" size=\"36\" height=\"80\"\n             textAlign=\"center\" verticalAlign=\"middle\"  textColor=\"0x4B0202\"/>\n\t<e:Label id=\"tileTf\" text=\"赢5元话费赛(免费报名)\" x=\"0\" y=\"46\" textColor=\"0x800000\" width=\"100%\" size=\"50\" textAlign=\"center\"/>\n\t<e:Image width=\"100%\" height=\"2\" x=\"0\" y=\"140\" source=\"match_item_split_h_png\"/>\n\t<e:Image width=\"2\" height=\"456\" x=\"398\" y=\"140\" source=\"match_item_split_v_png\"/>\n\t<e:Label id=\"startTimeTf\" text=\"开赛时间：22:30\" x=\"484\" y=\"180\" fontFamily=\"Tohama\" textColor=\"0x4B0202\" size=\"36\" width=\"360\" height=\"50\" verticalAlign=\"middle\"/>\n\t<e:Label id=\"signTf\" text=\"已报名：2230人\" x=\"484\" y=\"380\" fontFamily=\"Tohama\" textColor=\"0x4B0202\" size=\"36\" width=\"360\" height=\"50\" verticalAlign=\"middle\" textAlign=\"left\"/>\n\t<e:Button id=\"signBtn\" label=\"报名\" x=\"484\" y=\"450\" skinName=\"skins.btn_match_item_detail_signup_skin\"/>\n\t<e:Button id=\"closeBtn\" skinName=\"skins.btn_panel_close_skin\" right=\"0\" top=\"0\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/panel_myPlayerInfo_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"skins.panel_myPlayerInfo_skin\" height=\"242\" width=\"474\" xmlns:e=\"http://ns.egret.com/eui\">\r\n    <e:Image left=\"0\" right=\"0\" bottom=\"0\" top=\"0\" source=\"lord_playerinfo_bg_png\" />\r\n    <e:Group width=\"100%\" left=\"20\" height=\"118\">\r\n        <e:layout>\r\n            <e:VerticalLayout gap=\"20\" verticalAlign=\"middle\" />\r\n        </e:layout>\r\n        <e:Label id=\"nameLabel\" size=\"28\" text=\"pengsamkee\" textColor=\"0x7F5029\" textAlign=\"left\" verticalAlign=\"middle\"\r\n                 fontFamily=\"Tahoma\" />\r\n        <e:Label id=\"levelLabel\" size=\"22\" text=\"等级：LV999\" textColor=\"0x7F5029\" textAlign=\"left\" verticalAlign=\"middle\"\r\n                 fontFamily=\"Tahoma\" />\r\n    </e:Group>\r\n    <e:List id=\"emotionList\" width=\"100%\" top=\"120\">\r\n        <e:layout>\r\n            <e:HorizontalLayout gap=\"0\" />\r\n        </e:layout>\r\n    </e:List>\r\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/panel_otherPlayerInfo_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"skins.panel_otherPlayerInfo_skin\" height=\"242\" width=\"474\" xmlns:e=\"http://ns.egret.com/eui\">\r\n    <e:Image left=\"0\" right=\"0\" bottom=\"0\" top=\"0\" source=\"lord_playerinfo_bg_png\" />\r\n    <e:Group width=\"100%\" left=\"20\" height=\"118\">\r\n        <e:layout>\r\n            <e:VerticalLayout gap=\"20\" verticalAlign=\"middle\" />\r\n        </e:layout>\r\n        <e:Label id=\"nameLabel\" size=\"28\" text=\"pengsamkee\" textColor=\"0x7F5029\" textAlign=\"left\" verticalAlign=\"middle\"\r\n                 fontFamily=\"Tahoma\" />\r\n        <e:Label id=\"levelLabel\" size=\"22\" text=\"等级：LV999\" textColor=\"0x7F5029\" textAlign=\"left\" verticalAlign=\"middle\"\r\n                 fontFamily=\"Tahoma\" />\r\n    </e:Group>\r\n    <e:List id=\"emotionList\" width=\"100%\" top=\"126\">\r\n        <e:layout>\r\n            <e:HorizontalLayout gap=\"0\" />\r\n        </e:layout>\r\n    </e:List>\r\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/screen_lobby_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.screen_lobby_skin\" width=\"1280\" height=\"720\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:gameui=\"gameui.*\">\n    <e:Image id=\"backgroundImage\" source=\"lobby_bg_jpg\" />\n    <e:Image id=\"titleImage\" source=\"lobby_title_png\" horizontalCenter=\"0\" top=\"30\" />\n    <gameui:LobbyGameEntryIndicator id=\"gameEntryIndicator\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/screen_lord_lobby_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.screen_lord_lobby_skin\" width=\"1280\" height=\"720\" xmlns:e=\"http://ns.egret.com/eui\"\n        xmlns:gameui=\"gameui.*\">\n    <e:Image id=\"backgroundImage\" source=\"lord_lobby_bg_jpg\" />\n    <e:Group id=\"lordEnterGroup\" width=\"100%\">\n        <e:Button id=\"pkLordEnterBtn\" skinName=\"skins.btn_pk_lord_enter_skin\" top=\"162\" left=\"0\" />\n        <e:Button id=\"wildLordEnterBtn\" skinName=\"skins.btn_wild_lord_enter_skin\" top=\"168\" x=\"258\" />\n        <e:Button id=\"classicLordEnterBtn\" skinName=\"skins.btn_classic_lord_enter_skin\" horizontalCenter=\"0\" top=\"180\" />\n        <e:Button id=\"happyLordEnterBtn\" skinName=\"skins.btn_happy_lord_enter_skin\" top=\"168\" x=\"768\" />\n        <e:Button id=\"flashLordEnterBtn\" skinName=\"skins.btn_flash_lord_enter_skin\" top=\"162\" right=\"0\" />\n    </e:Group>\n    <gameui:LordMatchSelectScreen id=\"matchSelect\" x=\"1280\" />\n     <e:Button id=\"returnHallBtn\" skinName=\"skins.btn_return_hall_skin\" top=\"20\" left=\"20\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/screen_lord_match_select_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.screen_lord_match_select_skin\" width=\"1280\" height=\"720\" xmlns:e=\"http://ns.egret.com/eui\"\n        xmlns:gameui=\"gameui.*\">\n    <e:Image id=\"backgroundImage\" source=\"lord_match_select_bg_jpg\" />\n    <e:Image id=\"titleImage\" source=\"\" horizontalCenter=\"0\" top=\"14\" />\n    <e:Button id=\"returnBtn\" skinName=\"skins.btn_return_skin\" top=\"20\" left=\"20\" />\n    <e:List id=\"matchList\" width=\"100%\" bottom=\"130\">\n        <e:layout>\n            <e:HorizontalLayout gap=\"0\" />\n        </e:layout>\n    </e:List>\n    <gameui:LordMatchItemSelectIndicator id=\"matchItemSelectIndicator\" x=\"1280\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/splash_common_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.splash_common_skin\" width=\"1280\" height=\"720\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image id=\"backgroundImage\" source=\"splash_bg_jpg\" />\n    <e:Image id=\"loadingImage\" source=\"common_loading_png\" verticalCenter=\"0\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/splash_lord_lobby_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.splash_lord_lobby_skin\" width=\"1280\" height=\"720\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image id=\"backgroundImage\" source=\"splash_bg_jpg\" />\n    <e:Image id=\"loadingLogo\" source=\"lord_loading_logo_png\" horizontalCenter=\"0\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/widget_card_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.widget_card_skin\" width=\"155\" height=\"216\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image id=\"cardImage\" />\n    <e:Image id=\"shadeImage\" source=\"lord_cards.lord_card_selected\" visible=\"false\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/widget_indicator_nav_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.widget_indicator_nav_skin\" width=\"45\" height=\"45\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image source=\"page_indicator_common_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/widget_lobby_game_entry_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.widget_lobby_game_entry_skin\" width=\"160\" height=\"160\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Group>\n        <e:layout>\n            <e:VerticalLayout gap=\"10\" horizontalAlign=\"center\"/>\n        </e:layout>\n        <e:Image source=\"{data.icon}\" />\n        <e:Label text=\"{data.name}\" touchEnabled=\"false\" size=\"32\" fontFamily=\"Tahoma\" />\n    </e:Group>\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/widget_lobby_match_item_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.widget_lobby_match_item_skin\" width=\"508\" height=\"147\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Button skinName=\"skins.btn_lobby_match_item_normal_bg_skin\" />\n    <e:Label text=\"{data.name}\" top=\"36\" left=\"16\" textColor=\"0x000000\" touchEnabled=\"false\"  size=\"36\"/>\n    <e:Label text=\"{data.playerNumbers}\" top=\"43\" right=\"16\" touchEnabled=\"false\" size=\"26\"  textColor=\"0x222222\"/>\n    <e:Label text=\"{data.explanation}\" top=\"88\" left=\"16\" touchEnabled=\"false\" size=\"26\"  textColor=\"0x001111\"/>\n    <e:Label text=\"{data.time}\" top=\"88\" right=\"16\" touchEnabled=\"false\" size=\"26\"  textColor=\"0x001111\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/widget_lord_match_select_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.widget_lord_match_select_skin\" width=\"316\" height=\"324\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Button id=\"selectBtn\" skinName=\"{data}\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/widget_myEmotion_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.widget_myEmotion_skin\" width=\"118\" height=\"118\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image source=\"{data}\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/widget_otherEmotion_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.widget_otherEmotion_skin\" width=\"118\" height=\"100\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image source=\"{data}\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/widget_playBackground_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.widget_playBackground_skin\" width=\"1280\" height=\"720\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image id=\"backgroundImage\" source=\"lord_play_bg_1_png\" />\n</e:Skin>"
+    },
+    {
+      "path": "resource/gameui_skins/widget_player_skin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"skins.widget_player_skin\" width=\"188\" height=\"252\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Image id=\"playerImage\" source=\"lord_playerinfo_icon_farmer_face_to_right_png\" />\n</e:Skin>"
+    }
+  ]
+}

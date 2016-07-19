@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="skins.indicatorPage_lord_match_item_select_skin" width="1028" height="462" xmlns:e="http://ns.egret.com/eui">
-    <e:List id="matchItemList" width="100%" height="100%">
-        <e:layout>
-            <e:TileLayout verticalGap="10" horizontalGap="12" />
-        </e:layout>
-    </e:List>
-</e:Skin>
