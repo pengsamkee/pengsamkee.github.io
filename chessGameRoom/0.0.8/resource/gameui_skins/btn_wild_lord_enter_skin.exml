@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.btn_wild_lord_enter_skin" states="up,down" height="308" width="194"
+        xmlns:e="http://ns.egret.com/eui">
+    <e:Image width="100%" height="100%" source="btn_wild_lord_enter_up_png" source.down="btn_wild_lord_enter_up_png"
+             alpha.down="0.6" />
+</e:Skin>

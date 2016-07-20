@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.screen_lord_lobby_skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:gameui="gameui.*">
+    <e:Image id="bg_far" source="bg_far_png" horizontalCenter="0" />
+    <e:Image id="bg_floor" source="bg_floor_png" horizontalCenter="0" />
+    <e:Image id="lord_enter_shadow" source="lord_enter_shadow_png" horizontalCenter="0" y="320" />
+    <e:Group id="lordEnterGroup" width="100%" touchEnabled="false">
+        <e:Button id="pkLordEnterBtn" skinName="skins.btn_pk_lord_enter_skin" top="158" left="90" />
+        <e:Button id="wildLordEnterBtn" skinName="skins.btn_wild_lord_enter_skin" top="190" left="290" />
+        <e:Button id="classicLordEnterBtn" skinName="skins.btn_classic_lord_enter_skin" top="190" left="540" />
+        <e:Button id="happyLordEnterBtn" skinName="skins.btn_happy_lord_enter_skin" top="214" left="804" />
+        <e:Button id="flashLordEnterBtn" skinName="skins.btn_flash_lord_enter_skin" top="180" left="1040" />
+    </e:Group>
+    <e:Image id="label_pk_lord" source="label_pk_lord_png" touchEnabled="false" x="70" y="418" />
+    <e:Image id="label_wild_lord" source="label_wild_lord_png" touchEnabled="false" x="288" y="450" />
+    <e:Image id="label_classic_lord" source="label_classic_lord_png" touchEnabled="false" x="530" y="480" />
+    <e:Image id="label_happy_lord" source="label_happy_lord_png" touchEnabled="false" x="790" y="440" />
+    <e:Image id="label_flash_lord" source="label_flash_lord_png" touchEnabled="false" x="1016" y="422" />
+    <e:Component id="waterContainer" x="530" y="110" touchEnabled="false" />
+    <e:Component id="smokeContainerLeft" x="110" y="136" touchEnabled="false" />
+    <e:Component id="smokeContainerRight" x="1176" y="136" touchEnabled="false" />
+    <e:Image id="curtain_left" source="curtain_png" touchEnabled="false" anchorOffsetX="202" left="0" />
+    <e:Image id="curtain_right" source="curtain_png" touchEnabled="false" anchorOffsetX="-202" right="0" />
+    <e:Button id="returnHallBtn" skinName="skins.btn_return_hall_skin" top="20" left="20" />
+    <e:Button id="menuBtn" skinName="skins.btn_menu_skin" top="20" right="20" />
+</e:Skin>
