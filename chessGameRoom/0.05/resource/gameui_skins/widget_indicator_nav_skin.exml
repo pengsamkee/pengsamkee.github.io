@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="skins.widget_indicator_nav_skin" width="45" height="45" xmlns:e="http://ns.egret.com/eui">
-    <e:Image source="page_indicator_common_png" />
-</e:Skin>

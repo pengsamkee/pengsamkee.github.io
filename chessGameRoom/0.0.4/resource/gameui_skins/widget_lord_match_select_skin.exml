@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="skins.widget_lord_match_select_skin" width="316" height="324" xmlns:e="http://ns.egret.com/eui">
-    <e:Button id="selectBtn" skinName="{data}" />
-</e:Skin>

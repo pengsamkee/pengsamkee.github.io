@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="skins.widget_player_skin" width="188" height="252" xmlns:e="http://ns.egret.com/eui">
-    <e:Image id="playerImage" source="lord_playerinfo_icon_farmer_face_to_right_png" />
-</e:Skin>

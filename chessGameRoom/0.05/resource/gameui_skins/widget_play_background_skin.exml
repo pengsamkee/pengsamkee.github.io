@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="skins.widget_play_background_skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui">
-    <e:Image id="backgroundImage" source="lord_play_bg_1_png" />
-</e:Skin>

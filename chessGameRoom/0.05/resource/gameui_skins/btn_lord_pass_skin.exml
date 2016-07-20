@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<e:Skin class="skins.btn_lord_pass_skin" states="up,down,disabled" minHeight="88" minWidth="237"
-        xmlns:e="http://ns.egret.com/eui">
-    <e:Image width="100%" height="100%" source="btn_lord_pass_normal_png" source.down="btn_lord_pass_down_png"
-             source.disabled="btn_lord_pass_disabled_png" />
-</e:Skin>

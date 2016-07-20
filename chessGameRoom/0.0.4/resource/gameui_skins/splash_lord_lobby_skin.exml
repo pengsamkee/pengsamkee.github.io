@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="skins.splash_lord_lobby_skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui">
-    <e:Image id="backgroundImage" source="splash_bg_jpg" />
-    <e:Image id="loadingLogo" source="lord_loading_logo_png" horizontalCenter="0"/>
-</e:Skin>

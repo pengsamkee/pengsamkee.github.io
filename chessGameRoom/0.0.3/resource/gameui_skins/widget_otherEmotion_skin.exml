@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="skins.widget_otherEmotion_skin" width="118" height="100" xmlns:e="http://ns.egret.com/eui">
-    <e:Image source="{data}" />
-</e:Skin>

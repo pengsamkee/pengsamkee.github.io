@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="skins.widget_card_skin" width="155" height="216" xmlns:e="http://ns.egret.com/eui">
-    <e:Image id="cardImage" />
-    <e:Image id="shadeImage" source="lord_cards.lord_card_selected" visible="false" />
-</e:Skin>
