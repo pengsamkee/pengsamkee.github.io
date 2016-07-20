@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.screen_lord_match_select_skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:gameui="gameui.*" xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="bg_far" source="bg_far_png" />
+    <e:Image id="bg_floor" source="bg_floor_png" />
+    <e:Image id="titleImage" source="" horizontalCenter="0" top="55" />
+    <e:List id="matchList" width="100%" y="200" touchEnabled="false"
+            itemRendererSkinName="skins.widget_lord_match_select_skin">
+        <e:layout>
+            <e:HorizontalLayout gap="0" />
+        </e:layout>
+    </e:List>
+    <gameui:indicator_lord_match_item_select_skin id="matchItemSelectIndicator" x="1280" />
+    <e:Component id="waterContainer" x="530" y="110" />
+    <e:Component id="smokeContainerLeft" x="110" y="136" />
+    <e:Component id="smokeContainerRight" x="1176" y="136" />
+    <e:Image id="curtain_left" source="curtain_png" touchEnabled="false" anchorOffsetX="202" left="0" />
+    <e:Image id="curtain_right" source="curtain_png" touchEnabled="false" anchorOffsetX="-202" right="0" />
+    <e:Button id="returnBtn" skinName="skins.btn_return_skin" top="20" left="20" />
+    <e:Button id="menuBtn" skinName="skins.btn_menu_skin" top="20" right="20" />
+</e:Skin>

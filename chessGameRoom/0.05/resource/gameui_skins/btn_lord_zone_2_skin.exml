@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.btn_lord_zone_2_skin" states="up,down" minHeight="324" minWidth="316" xmlns:e="http://ns.egret.com/eui">
+    <e:Image width="100%" height="100%" source="btn_lord_zone_2_up_png" source.down="btn_lord_zone_2_down_png" />
+</e:Skin>

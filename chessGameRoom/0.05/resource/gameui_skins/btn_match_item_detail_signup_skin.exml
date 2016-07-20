@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.btn_match_item_detail_signup_skin" states="up,down,disabled" width="350" height="116"
+        xmlns:e="http://ns.egret.com/eui">
+    <e:Image width="100%" height="100%" source="match_item_detail_signup_btn_up_png"
+             source.down="match_item_detail_signup_btn_down_png"
+             source.disabled="match_item_detail_signup_btn_disable_png" />
+    <e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" textColor="0xFFFFFF" verticalAlign="middle"
+             textAlign="center" size="50" fontFamily="Tohama"/>
+</e:Skin>

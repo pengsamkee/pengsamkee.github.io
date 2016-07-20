@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.bar_play_card" width="739" height="178" xmlns:e="http://ns.egret.com/eui">
+    <e:Group width="100%" height="80">
+        <e:Image id="clockImage" width="94" height="80" source="lord_clock_bg_png" horizontalCenter="0" />
+        <e:Label id="clockLabel" size="32" bold="true" textColor="0xFFFFFF" textAlign="center" verticalAlign="middle"
+                 fontFamily="Tahoma" horizontalCenter="0" top="20" />
+    </e:Group>
+    <e:Group width="100%" height="100%">
+        <e:layout>
+            <e:HorizontalLayout gap="16" verticalAlign="bottom" />
+        </e:layout>
+        <e:Button id="passBtn" skinName="skins.btn_lord_pass_skin" />
+        <e:Button id="promptBtn" skinName="skins.btn_lord_prompt_skin" />
+        <e:Button id="productBtn" skinName="skins.btn_lord_product_skin" />
+    </e:Group>
+</e:Skin>

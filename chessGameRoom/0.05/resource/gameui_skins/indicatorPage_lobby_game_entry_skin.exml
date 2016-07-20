@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.indicatorPage_lobby_game_entry_skin" width="1080" height="390" xmlns:e="http://ns.egret.com/eui">
+    <e:List id="gameEntryList" width="100%" height="100%" itemRendererSkinName="skins.widget_lobby_game_entry_skin">
+        <e:layout>
+            <e:TileLayout verticalGap="70" horizontalGap="70" />
+        </e:layout>
+        <e:ArrayCollection source="{data}" />
+    </e:List>
+</e:Skin>

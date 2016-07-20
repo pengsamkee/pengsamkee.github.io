@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.btn_lobby_match_item_normal_skin" states="up,down" minHeight="147" minWidth="508"
+        xmlns:e="http://ns.egret.com/eui">
+    <e:Image width="100%" height="100%" source="lobby_match_item_normal_bg_up_png" source.down="lobby_match_item_normal_bg_down_png" />
+</e:Skin>
